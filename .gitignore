@@ -28,3 +28,6 @@ project.xcworkspace
 # Node
 node_modules
 *.log
+
+# JetBrain
+.idea

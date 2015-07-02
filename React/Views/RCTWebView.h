@@ -23,5 +23,6 @@
 - (void)goForward;
 - (void)goBack;
 - (void)reload;
+- (NSString *)evaluateJavaScript:(NSString *)script;
 
 @end

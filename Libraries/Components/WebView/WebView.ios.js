@@ -171,6 +171,10 @@ var WebView = React.createClass({
     );
   },
 
+  evaluateJavaScript: function(script: string, callback: Function) {
+    return RCTWebViewManager.evaluateJavaScript(this.getWebWiewHandle(), script, callback);
+  },
+  
   goForward: function() {
     RCTWebViewManager.goForward(this.getWebWiewHandle());
   },
